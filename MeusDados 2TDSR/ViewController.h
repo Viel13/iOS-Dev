@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    
+    __weak IBOutlet UILabel *lb1;
+    
+    __weak IBOutlet UILabel *lb2;
+}
 
+- (IBAction)btnExibir:(id)sender;
 
 @end
 

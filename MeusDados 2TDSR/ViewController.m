@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    lb1.text=@"Meu nome.....";
+    lb2.text=@"E minha idade é";
 }
 
 
@@ -26,4 +27,11 @@
 }
 
 
+- (IBAction)btnExibir:(id)sender {
+    
+    lb1.text = @"Victor";
+    lb2.text=@"21";
+    
+    
+}
 @end
